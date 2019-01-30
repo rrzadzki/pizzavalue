@@ -2,7 +2,7 @@ Having trouble ordering pizza? Is the timeless conundrum of finding the right pi
 
 # Usage
 
-`
+```
 pizzavalue.py [-h] [-n NAME] [-p PEOPLE] [-s] [-x SLICES] cost size
 
 positional arguments:
@@ -12,11 +12,13 @@ positional arguments:
 
 optional arguments:
   -h, --help            show this help message and exit
-  -n NAME, --name NAME  name of the option, ie. Dimo's 20" Chicken Bacon
+  -n NAME, --name NAME  name of the option, ie. Dimo's 20" BBQ Bacon Chicken
                         Cheddar Ranch
   -p PEOPLE, --people PEOPLE
                         number of people in your party
   -s, --square          pizza is square (defaults to round)
   -x SLICES, --slices SLICES
                         number of slices
-`
+
+
+```
