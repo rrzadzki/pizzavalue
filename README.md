@@ -22,3 +22,13 @@ optional arguments:
 
 
 ```
+
+# Output
+
+With the required arguments, pizzavalue will output the cost per square inch of pizza as a convenient unit comparison.
+
+Including `--people {integer}` will also tell you the square inches and cost per person to help with splitting the tab.
+
+`--slices {integer}` will minimally provide the square inches and cost per slice. Paired with `-p`, it will also tell you how many slices per person.
+
+`--name` is handy if you're testing many possible pizzas. It will be more useful when I get a chance to implement tabular output and multiple pies; this will enable pizza pivots.
